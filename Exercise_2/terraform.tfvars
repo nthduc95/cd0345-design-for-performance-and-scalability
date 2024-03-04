@@ -4,4 +4,4 @@ region = "us-east-1"
 lambda_function_name = "Greeting"
 
 # Lambda output path
-lambda_output_path = "./lambda.py.zip"
+lambda_output_path = "./greet_lambda.py.zip"
