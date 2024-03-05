@@ -1,28 +1,29 @@
-Estimate summary									
-Upfront cost	Monthly cost	Total 12 months cost	Currency						
-0	18651.67	223820.04	USD						
-		* Includes upfront cost							
-									
-									
-Detailed Estimate									
-Group hierarchy	Region	Description	Service	Upfront	Monthly	First 12 months total	Currency	Status	Configuration summary
-Increased_Cost_Estimate	US East (N. Virginia)		Amazon Route 53	0	183	2196	USD		"Hosted Zones (1), Number of Elastic Network Interfaces (2)"
-Increased_Cost_Estimate	US East (N. Virginia)		VPN Connection	0	73	876	USD		"Working days per month (22), Number of Site-to-Site VPN Connections (2)"
-Increased_Cost_Estimate	US East (N. Virginia)	Web Server	Amazon EC2 	0	6219.6	74635.2	USD		"Tenancy (Dedicated Instances), Operating system (Linux), Workload (Consistent, Number of instances: 8), Advance EC2 instance (m5.4xlarge), Pricing strategy (On-Demand Utilization: 100 %Utilized/Month), Enable monitoring (disabled), DT Inbound: Not selected (0 TB per month), DT Outbound: Not selected (0 TB per month), DT Intra-Region: (0 TB per month)"
-Increased_Cost_Estimate	US East (N. Virginia)	Application Server	Amazon EC2 	0	4759.6	57115.2	USD		"Tenancy (Dedicated Instances), Operating system (Linux), Workload (Consistent, Number of instances: 8), Advance EC2 instance (m5.4xlarge), Pricing strategy (On-Demand Utilization: 100 %Utilized/Month), Enable monitoring (disabled), DT Inbound: Not selected (0 TB per month), DT Outbound: Not selected (0 TB per month), DT Intra-Region: (0 TB per month)"
-Increased_Cost_Estimate	US East (N. Virginia)		Amazon RDS for MySQL	0	5788.8	69465.6	USD		"Storage for each RDS instance (General Purpose SSD (gp2)), Storage amount (1 TB), Quantity (2), Instance type (db.m5.4xlarge), Utilization (On-Demand only) (100 %Utilized/Month), Deployment option (Multi-AZ), Pricing strategy (OnDemand), Additional backup storage (10 TB)"
-Increased_Cost_Estimate	US East (N. Virginia)		Application Load Balancer	0	33.32	399.84	USD		Number of Application Load Balancers (2)
-Increased_Cost_Estimate	US East (N. Virginia)		Amazon CloudFront	0	433	5196	USD		"Data transfer out to internet (100 GB per month), Number of requests (HTTPS) (100000000 per month), Data transfer out to internet (10 GB per month), Number of requests (HTTPS) (50000000 per month), Data transfer out to internet (100 GB per month), Number of requests (HTTPS) (100000000 per month), Data transfer out to internet (100 GB per month), Number of requests (HTTPS) (100000000 per month)"
-Increased_Cost_Estimate	US East (N. Virginia)		S3 Standard	0	706.56	8478.72	USD		S3 Standard storage (30 TB per month)
-Increased_Cost_Estimate	US East (N. Virginia)		Data Transfer	0	0	0	USD		"DT Inbound: Internet (1 TB per month), DT Outbound: Amazon CloudFront (10 TB per month)"
-Increased_Cost_Estimate	US East (N. Virginia)		Amazon ElastiCache	0	454.79	5457.48	USD		"Nodes (), Instance type (cache.r6gd.12xlarge), Utilization (On-Demand only) (100 %Utilized/Month), Cache Engine (Redis), Cache Node Type (Memory optimized), Pricing strategy (OnDemand), Instance type (cache.m5.2xlarge), Cache Engine (Redis), Nodes (1), Utilization (On-Demand only) (100 %Utilized/Month), Cache Node Type (Standard), Pricing strategy (OnDemand), Average simple request rate ( per second)"
-									
-									
-									
-Acknowledgement									
-"* AWS Pricing Calculator provides only an estimate of your AWS fees and doesn't include any taxes that might apply. Your actual fees depend on a variety of factors, including your actual usage of AWS services."									
-									
-Increased Cost Estimate									
-"Amazon EC2: Inscreased from 4 instances (m5a.4xlarge) -> 8 instances (m5a.8xlarge) to improve the availability and reliability of your application, as well as the performance and throughput"									
-"In addtional, Increased CPU and memory capacity to improve the computation and memory performance of your application, especially for workloads that are CPU-intensive or memory-intensive."									
-"RDS service increased to db.m5.4xlarge. Increased  backup storage to 10 TB. It provides improve the computation and memory performance, increased connections limit, storage limit."									
+Estimate summary,,,,,,,,,
+Upfront cost,Monthly cost,Total 12 months cost,Currency,,,,,,
+0,18809.53,225714.36,USD,,,,,,
+,,* Includes upfront cost,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+Detailed Estimate,,,,,,,,,
+Group hierarchy,Region,Description,Service,Upfront,Monthly,First 12 months total,Currency,Status,Configuration summary
+Increased_Cost_Estimate,US East (N. Virginia),,Amazon Route 53,0,183,2196,USD,,"Hosted Zones (1), Number of Elastic Network Interfaces (2)"
+Increased_Cost_Estimate,US East (N. Virginia),,VPN Connection,0,73,876,USD,,"Working days per month (22), Number of Site-to-Site VPN Connections (2)"
+Increased_Cost_Estimate,US East (N. Virginia),,Network Address Translation (NAT) Gateway,0,157.86,1894.32,USD,,Number of NAT Gateways (2)
+Increased_Cost_Estimate,US East (N. Virginia),Web Server,Amazon EC2 ,0,6219.6,74635.2,USD,,"Tenancy (Dedicated Instances), Operating system (Linux), Workload (Consistent, Number of instances: 8), Advance EC2 instance (m5.4xlarge), Pricing strategy (On-Demand Utilization: 100 %Utilized/Month), Enable monitoring (disabled), DT Inbound: Not selected (0 TB per month), DT Outbound: Not selected (0 TB per month), DT Intra-Region: (0 TB per month)"
+Increased_Cost_Estimate,US East (N. Virginia),Application Server,Amazon EC2 ,0,4759.6,57115.2,USD,,"Tenancy (Dedicated Instances), Operating system (Linux), Workload (Consistent, Number of instances: 8), Advance EC2 instance (m5.4xlarge), Pricing strategy (On-Demand Utilization: 100 %Utilized/Month), Enable monitoring (disabled), DT Inbound: Not selected (0 TB per month), DT Outbound: Not selected (0 TB per month), DT Intra-Region: (0 TB per month)"
+Increased_Cost_Estimate,US East (N. Virginia),,Amazon RDS for MySQL,0,5788.8,69465.6,USD,,"Storage for each RDS instance (General Purpose SSD (gp2)), Storage amount (1 TB), Quantity (2), Instance type (db.m5.4xlarge), Utilization (On-Demand only) (100 %Utilized/Month), Deployment option (Multi-AZ), Pricing strategy (OnDemand), Additional backup storage (10 TB)"
+Increased_Cost_Estimate,US East (N. Virginia),,Application Load Balancer,0,33.32,399.84,USD,,Number of Application Load Balancers (2)
+Increased_Cost_Estimate,US East (N. Virginia),,Amazon CloudFront,0,433,5196,USD,,"Data transfer out to internet (100 GB per month), Number of requests (HTTPS) (100000000 per month), Data transfer out to internet (10 GB per month), Number of requests (HTTPS) (50000000 per month), Data transfer out to internet (100 GB per month), Number of requests (HTTPS) (100000000 per month), Data transfer out to internet (100 GB per month), Number of requests (HTTPS) (100000000 per month)"
+Increased_Cost_Estimate,US East (N. Virginia),,S3 Standard,0,706.56,8478.72,USD,,S3 Standard storage (30 TB per month)
+Increased_Cost_Estimate,US East (N. Virginia),,Data Transfer,0,0,0,USD,,"DT Inbound: Internet (1 TB per month), DT Outbound: Amazon CloudFront (10 TB per month)"
+Increased_Cost_Estimate,US East (N. Virginia),,Amazon ElastiCache,0,454.79,5457.48,USD,,"Nodes (), Instance type (cache.r6gd.12xlarge), Utilization (On-Demand only) (100 %Utilized/Month), Cache Engine (Redis), Cache Node Type (Memory optimized), Pricing strategy (OnDemand), Instance type (cache.m5.2xlarge), Cache Engine (Redis), Nodes (1), Utilization (On-Demand only) (100 %Utilized/Month), Cache Node Type (Standard), Pricing strategy (OnDemand), Average simple request rate ( per second)"
+Increased_Cost_Estimate,US East (N. Virginia),,Amazon Elastic IP,0,0,0,USD,,"Number of EC2 instances (16), Number of EIPs per instance (2)"
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+Acknowledgement,,,,,,,,,
+"* AWS Pricing Calculator provides only an estimate of your AWS fees and doesn't include any taxes that might apply. Your actual fees depend on a variety of factors, including your actual usage of AWS services.",,,,,,,,,
+"Increased Cost Estimate									",,,,,,,,,
+"Amazon EC2: Inscreased from 4 instances (m5a.4xlarge) -> 8 instances (m5a.8xlarge) to improve the availability and reliability of your application, as well as the performance and throughput									",,,,,,,,,
+"In addtional, Increased CPU and memory capacity to improve the computation and memory performance of your application, especially for workloads that are CPU-intensive or memory-intensive.									",,,,,,,,,
+"RDS service increased to db.m5.4xlarge. Increased  backup storage to 10 TB. It provides improve the computation and memory performance, increased connections limit, storage limit.									",,,,,,,,,
